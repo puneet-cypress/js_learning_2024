@@ -1,0 +1,13 @@
+let candii = {
+    "alice": 100,
+    "bob": 200,
+    "charlie": 300,
+    "david": 400
+};
+for (let key in candii) { //for (let ke in objectName) { }
+console.log(key + "::" + candii[key]);
+};
+
+// Summary:
+// key सिर्फ key (दोस्त का नाम) को स्टोर करता है।
+// candii[key] उस key की value (कैंडीज़ की संख्या) को स्टोर करता है।
